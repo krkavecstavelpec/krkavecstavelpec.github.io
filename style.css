@@ -116,6 +116,9 @@ footer>th {
 a {
     color: inherit;
 }
+em {
+    font-style: normal;
+}
 
 @media screen and (max-width: 601px) {
 
@@ -165,8 +168,8 @@ a {
     }
 
     section {
-        background-image: url(pic/stola.jpg);
-        background-size: 250%;
+        background-image: url(pic/biografiefoto_dummy.jpg);
+        background-size: 100%;
         color: black;
     }
 }
