@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;500&display=swap');
+
+/*Media Queries???*/
+
+body {
+    font-family: 'Figtree', sans-serif;
+    font-weight: 300;
+    padding: 10px;
+    background-color: black;
+    background-image: url(/pic/stola.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 300px;
+    background-size: 100% 75%;
+    color: white;
+}
+header {
+    background-color: rgba(0, 0, 0);
+    padding: 0px;
+}
+header > h1 {
+    font-size: 6rem;
+    text-align: center;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.8);
+    letter-spacing: 3px;
+    margin-top: 1%;
+    
+}
+header > p {
+    text-align: center;
+    margin-top: -50px;
+    letter-spacing: 15px;
+    padding-bottom: 1%;
+}
+h1, h2 {
+    font-weight: 500;
+    font-size: 5rem;
+    margin-top: 2%;
+    margin-left: 5%;
+    padding-top: 3%;
+}
+.koncerty > h2, .nahravky > h2 {
+    font-size: 3rem;
+}
+p {
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+section {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: fit-content;
+}
+
+.profilephoto {
+    float: right;
+    margin: 4%;
+    box-shadow: 0px 0px 5px 2px rgba(255, 255, 255, 0.2);
+
+}
+section:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.biografie {
+    width: 100%;
+    margin-top: 50px;
+}
+ul {
+    list-style: none;
+}
+.koncerty, .nahravky {
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    min-height: 300px;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+footer {
+    clear: both;
+    background-color: rgba(0, 0, 0);
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+footer > th {
+    font-size: 1rem;
+    padding: 2%;
+}
+a {
+    color: inherit;
+}
+@media screen and (max-width: 601px) {
+    h1, h2, .koncerty > h2, .nahravky > h2 {
+
+        font-size: 5vw;
+    } 
+    .biografie {
+        margin-top: 10px;
+    }
+    header > h1 {
+        font-size: 7vw;
+    }
+    header > p {
+        margin-top: -15px;
+    }
+    p {
+      font-size: 4vw;
+    }
+    body {
+        background-position: 0 190px;
+    }
+}
+    
+
+
+
+
+
