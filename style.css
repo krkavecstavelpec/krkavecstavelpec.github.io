@@ -52,7 +52,6 @@ h3 {
 
 p {
     font-size: 1.5rem;
-    margin-bottom: 1%;
     margin-left: 2%;
 }
 
@@ -105,6 +104,9 @@ ul {
     margin-top: -15px;
     padding-left: 1%;
 }
+.koncerty>p {
+    padding-right: 15%;
+}
 
 footer {
     clear: both;
@@ -130,9 +132,11 @@ a {
 em {
     font-style: normal;
 }
-li>p>em {
-    font-size: larger;
+
+.koncerty>p>em {
+    font-style: italic;
 }
+
  li {
     margin-left: 4%;
  }
