@@ -212,6 +212,9 @@ em {
     li {
         margin-left: 0px;
     }
+    a {
+        font-style: normal;
+    }
 }
 
 @media screen and (max-height: 300px) {
